@@ -102,7 +102,7 @@ justify-content: space-between;
 align-items: flex-start;
 padding: 0px;
 position: static;
-width: 1500px
+width: 1500px;
 height: 40px;
 left: 32px;
 top: 90px;
@@ -112,6 +112,7 @@ align-self: stretch;
 flex-grow: 0;
 margin: 24px 0px;
 }
+
 .Actions{
 display: flex;
 flex-direction: row;
