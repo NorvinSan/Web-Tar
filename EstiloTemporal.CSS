@@ -1,58 +1,800 @@
-body {
-  padding: 0;
-  margin: 0px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 48px 0px 96px;
-  position: static;
-  /*width: 1440px;*/
-  width: 2000px;
-  height: 1223px;
-  left: 0px;
-  top: 73px;
-  background: #fcfcfd;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-
-.Top-nav {
-  /* background-color: rgb(236, 236, 236);*/
-
-  border-color: rgb(228, 223, 223);
-  border-style: ridge;
-  border-spacing: 20ch;
-  text-decoration: 15px;
-  overflow: hidden;
-}
-.Top-nav a {
-  color: rgb(0, 0, 0);
-  display: block;
-  padding: 14px 16px;
-  float: left;
-  text-decoration: none;
-  text-align: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.Top-nav a:hover:not(.activ) {
-  background-color: rgb(189, 98, 231);
-}
-
-.right {
-  float: inline-end;
-}
+.Top-nav{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 1240px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+    
+    
+    background: #ffffff;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 100px;
+    }
+    
+    .Top-nav .Divider{
+        position: static;
+        width: 1440px;
+        height: 1px;
+        left: 0px;
+        top: 72px;
+        
+      
+        
+        background: #e6e3e3;
+        
+        
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+    
+    .Top-nav .Contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 32px;
+        
+        position: static;
+        width: 1280px;
+        height: 72px;
+        left: 80px;
+        top: 0px;
+        
+       
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: -1px 0px;
+        background: #fffdfd;
+    }
+    
+    .Top-nav .Contenedor .Contiene{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 306px;
+        height: -128px;
+        right: 32px;
+        top: calc(50% - 40px/2);
+        
+       
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 80px;
+        background: #ffffff;
+    }
+    
+    
+    
+    .Top-nav .Contenedor .Contiene .Dropdow{
+        position: static;
+        width: 37px;
+        height: 37px;
+        left: 37px;
+        top: 37px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: -999px 260px;
+        background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Dropdwo .Drow{
+        position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 1%;
+    bottom: 1%;
+    margin: 0px 400px;
+    border: 1.67px solid #ffffff;
+    }
+    
+    
+    
+    
+    .Top-nav .Contenedor .Contiene .Accion{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        position: static;
+        width: 100px;
+        height: 40px;
+        left: 166px;
+        top: 0px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px -400px;
+        background: #ffffff;
+    
+    }
+    
+    .Top-nav .Contenedor .Contiene .Accion .NavIt{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        position: static;
+        width: 18px;
+        height: 18px;
+        left: 18px;
+        top: 0px;
+        background: #ffffff;
+        border-radius: 6px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 50px;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Accion .NavIt .bell{
+        position: static;
+        width: 20px;
+        height: 20px;
+        left: 10px;
+        top: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+        background: #ffffff;
+        
+    }
+    
+    .Top-nav .Contenedor .Contiene .Accion .NavIt .bell .BellIm{
+        position: static;
+        left: 12.5%;
+        right: 12.5%;
+        top: 8.33%;
+        bottom: 8.35%;
+        border: 1.66667px solid #ffffff;
+    }
+    
+    
+    
+    
+    .Top-nav .Contenedor .Contiene .Accion .NavC{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        position: static;
+        width: 18px;
+        height: 18px;
+        left: 18px;
+        top: 0px;
+        background: #ffffff;
+        border-radius: 6px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px -128px;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Accion .NavC .Seting{
+    
+        position: static;
+        width: 20px;
+        height: 20px;
+        left: 10px;
+        top: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+        background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Accion .NavC .Seting .Icono{
+        position: static;
+        left: 12.5%;
+        right: 12.5%;
+        top: 8.33%;
+        bottom: 8.35%;
+        border: 1.66667px solid #ffffff;
+    }
+    
+    
+    
+    
+    
+    .Top-nav .Contenedor .Contiene .Button{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        position: static;
+        width: 100px;
+        height: 40px;
+        left: 166px;
+        top: 0px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 170px;
+        background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Button .BtnBase{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        position: static;
+        width: 18px;
+        height: 18px;
+        left: 18px;
+        top: 0px;
+        background: #ffffff;
+        border-radius: 6px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 50px;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Button .BtnBase{
+    position: static;
+    width: 90px;
+    height: 20px;
+    left: 44px;
+    top: 10px;
+    
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    
+    color: #000000;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 9px;
+    border-color: rgb(255, 255, 255);
+    }
+    
+    .Top-nav .Contenedor .Contiene .Button .BtnBase .Zap{
+        position: static;
+        width: 20px;
+        height: 20px;
+        left: 10px;
+        top: 10px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px -100px;
+        background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Contiene .Button .BtnBase .Zap .Icono3{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    margin: -330px 335px;
+    border: 0px solid #fafcff;
+    }
+    
+    
+    
+    .Top-nav .Cont{
+        
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 1280px;
+    height: 72px;
+    left: 80px;
+    top: 0px;
+    
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -630px;
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 600px;
+        height: 60px;
+        left: 158px;
+        top: 0px;
+        
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 730px;
+    background: #fffefe;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 50px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 441px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente .Tex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #ffffff;
+    }
+    
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Reporting{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 68px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px -560px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #11e0e0;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente .Tex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #000000;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Tasks{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 50px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 440px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente .Tex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #000000;
+    }
+    
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 60px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px -9px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Logo .Icono{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 240px;
+    
+    background: #ffffff;
+    }
+    
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Projects{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 55px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px -550px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente .Tex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #000000;
+    }
+    
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Deshboard{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 73px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 415px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente .Tex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #000000;
+    }
+    
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Home{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 45px;
+        left: 158px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px -540px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #ffffff;
+    }
+    
+    .Top-nav .Contenedor .Cont .Navegacion .Usuario .Content .Contente .Tex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        
+        position: static;
+        width: 45px;
+        height: 35px;
+        left: 150px;
+        top: 0px;
+       
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 2px;
+    
+    background: #000000;
+    }
+    
+    /*
+    .Top-nav .Contenedor .Cont .Navegacion .NavItem .Content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: static;
+    width: 45px;
+    height: 24px;
+    left: 12px;
+    top: 8px;
+    
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 105px;
+    }
+    .Top-nav .Contenedor .Cont .Navegacion .NavItem .Content .text{
+    position: static;
+    width: 45px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+    color: #344054;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+    }*/
 
 /* Comienzo de la edición a unir*/
 .HeaderSection {
