@@ -121,7 +121,8 @@ main {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 0px 16px;
+  margin: 0px -177px;
+ 
 }
 
 .filter {
@@ -440,6 +441,7 @@ main {
   order: 1;
   flex-grow: 0;
   margin: 0px 16px;
+  margin-left: 210px;
 
 }
 
@@ -485,5 +487,287 @@ main {
   line-height: 20px;
     
 }
+.contenedorInfo{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 32px;
 
+position: static;
+width: 1280px;
+height: 168px;
+left: 80px;
+top: 0px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.CuentaDesktop{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+position: static;
+width: 778px;
+height: 270px;
+left: 32px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #EAECF0;
+box-sizing: border-box;
+box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+border-radius: 8px;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 5px 94px;
+align-self: baseline;
+margin-left: 20px;
+margin-top: -79px;
+/*align-self: initial;*/
+}
+
+.donut {
+    width: 214px; height: 214px;
+    border-radius: 50%;
+    background: conic-gradient(
+      rgb(127,86,217) 0deg 80deg,
+      rgb(158,119,237) 80deg 190deg,
+      rgb(182,146,246) 190deg 230deg,
+      rgb(214,187,251) 230deg 270deg,
+      rgb(244,235,255) 270deg 360deg
+    );
+  }
+  .hole {
+    width: 140px; height: 140px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ContenidoDesktop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 404px;
+    height: 114px;
+    left: 168px;
+    top: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 24px;
+  }
+
+  .Cabecera{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 404px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+  }
+
+  .primaryacount{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #101828;
+    font-weight: bold;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 15px;
+  }
+
+  .IconoVertical{
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .CurrentDesktop{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #667085;
+  }
+
+  .Money{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 38px;
+    display: flex;
+  }
+
+  .porcentaje{
+display:contents;
+font-family: 'Inter';
+font-style: normal;
+display:inline;
+flex-direction:row;
+justify-content:center;
+align-items:flex-end;
+padding: 0px 0px 0px 0px;
+
+position:static;
+left:0px;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #008236;
+border-radius: 16px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 45px 290px;
+    font-size: 15px;
+    background-color: green;
+    color:green;
+    
+  }
+
+  .NPresupuesto{
+    display:flex;
+    flex-direction: row;
+    align-items:stretch;
+    padding: 0px;
+    
+    position: static;
+    width: 404px;
+    height: 38px;
+    left: 0px;
+    top: 28px;    
+    flex:none;
+    order: 1;
+    align-self:stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .CuentaSecundaria{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: static;
+    width: 778px;
+height: 270px;
+    left: 652px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #EAECF0;
+    box-sizing: border-box;
+    padding: 0px 0px;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px -62px;
+    
+    margin-top: -57px;
+  }
+
+  .donut2 {
+      margin-top: 22px;
+      margin-left: 22px;
+    width: 214px; height: 214px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #475467  0deg 80deg,
+        #667085  80deg 190deg,
+        #98A2B3 190deg 230deg,
+        #D0D5DD 230deg 270deg,
+        #F2F4F7  270deg 360deg
+    );
+  }
+
+  .hole2 {
+    width: 140px; height: 140px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .donut2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .secundaryacount{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #101828;
+    font-weight: bold;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 25px 15px;
+  }
+
+  .porcentaje2{
+    display:contents;
+    font-family: 'Inter';
+    font-style: normal;
+    display:inline;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-end;
+    padding: 0px 0px 0px 0px;
+    
+    position:static;
+    left:0px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #008236;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 57px 309px;
+        font-size: 15px;
+        background-color: green;
+        color:green;
+        
+      }
 /* Final de la edición a unir*/
